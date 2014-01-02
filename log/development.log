@@ -1,0 +1,129 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-01 18:40:22 +0530
+
+RuntimeError (Please install the mysql2 adapter: `gem install activerecord-mysql2-adapter` (cannot load such file -- active_record/connection_adapters/mysql2_adapter)):
+/home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_specification.rb:76:in `rescue in rescue in establish_connection'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_specification.rb:73:in `rescue in establish_connection'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_specification.rb:68:in `establish_connection'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_specification.rb:60:in `establish_connection'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_specification.rb:55:in `establish_connection'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/railtie.rb:55:in `block (2 levels) in <class:Railtie>'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/lazy_load_hooks.rb:17:in `instance_eval'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/lazy_load_hooks.rb:17:in `execute_hook'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/lazy_load_hooks.rb:24:in `block in run_load_hooks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/lazy_load_hooks.rb:23:in `each'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/lazy_load_hooks.rb:23:in `run_load_hooks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/base.rb:1937:in `<top (required)>'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_pool.rb:370:in `ensure in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_pool.rb:370:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:414:in `_run_call_callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:88:in `run_callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/sendfile.rb:105:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/show_exceptions.rb:48:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/rack/logger.rb:14:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/runtime.rb:17:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/lock.rb:11:in `block in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/application.rb:145:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/application.rb:81:in `method_missing'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/rack/log_tailer.rb:15:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+  /home/yadagiri-tandu/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/yadagiri-tandu/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/yadagiri-tandu/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+Rendered /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-01 18:41:32 +0530
+
+
+Started GET "/p/1" for 127.0.0.1 at 2014-01-01 18:47:20 +0530
+
+
+Started GET "/products/1" for 127.0.0.1 at 2014-01-01 18:47:20 +0530
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSCHEMA (0.6ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mProduct Load (0.4ms)[0m  SELECT `products`.* FROM `products` WHERE (`products`.`id` = 1) LIMIT 1
+Completed   in 21ms
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=1):
+/home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/relation/finder_methods.rb:287:in `find_one'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/relation/finder_methods.rb:274:in `find_with_ids'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/relation/finder_methods.rb:102:in `find'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/base.rb:403:in `find'
+  /home/yadagiri-tandu/Downloads/Railscasts/222-rack-in-rails-3/store/app/controllers/products_controller.rb:7:in `show'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/abstract_controller/base.rb:145:in `process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:433:in `_run__1061297116__process_action__1068043845__callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:408:in `_run_process_action_callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:88:in `run_callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal/instrumentation.rb:29:in `block in process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/notifications.rb:48:in `instrument'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal/instrumentation.rb:28:in `process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal/rescue.rb:8:in `process_action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/abstract_controller/base.rb:114:in `process'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/abstract_controller/rendering.rb:40:in `process'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal.rb:126:in `dispatch'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_controller/metal.rb:166:in `block in action'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/routing/route_set.rb:457:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/head.rb:14:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/flash.rb:177:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/session/abstract_store.rb:106:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/cookies.rb:235:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/query_cache.rb:31:in `block in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/query_cache.rb:11:in `cache'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/query_cache.rb:30:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activerecord-3.0.0.beta4/lib/active_record/connection_adapters/abstract/connection_pool.rb:365:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:414:in `_run_call_callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/callbacks.rb:88:in `run_callbacks'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/sendfile.rb:105:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/show_exceptions.rb:48:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/rack/logger.rb:14:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/runtime.rb:17:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/activesupport-3.0.0.beta4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/lock.rb:11:in `block in call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/application.rb:145:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/application.rb:81:in `method_missing'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/railties-3.0.0.beta4/lib/rails/rack/log_tailer.rb:15:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+  /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+  /home/yadagiri-tandu/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/yadagiri-tandu/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/yadagiri-tandu/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+Rendered /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/yadagiri-tandu/.rvm/gems/ruby-2.0.0-p353@rails4/gems/actionpack-3.0.0.beta4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
